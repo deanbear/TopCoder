@@ -13,14 +13,12 @@ public class WolfDelaymaster {
     		if(! (matcher.group(2).length() == matcher.group(3).length()
     				&& matcher.group(3).length() == matcher.group(4).length()
     				&& matcher.group(4).length() == matcher.group(5).length())) {
-    			System.out.println(matcher.group());
     			return "INVALID";
     		}
     	}
     	if(count == str.length()) {
     		 return "VALID";
     	} else { 
-    		System.out.println(count);
     		return "INVALID";
     	}
 		
